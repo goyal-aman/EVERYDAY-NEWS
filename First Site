@@ -1,0 +1,316 @@
+<html>
+    <head>
+        <title>
+second try
+        </title>
+        <style>
+            ul#container {
+    height: 657px; 
+    overflow-y:auto;
+    
+    
+}
+            .borders  {
+                border-style: dotted;
+                border-width: 0px;
+            }
+        textarea[type=text]{
+            margin: 0 auto;
+            border:px solid #aaa;
+            border-radius: 0px;
+            margin:8px;
+            outline:none;
+            transition: 0.3s;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+        textarea[type=text]:focus{
+            border-color:dodgerblue;
+            box-shadow: 0px 0px 8px 0  dodgerblue;
+            ;
+        }
+        </style>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    </head>
+    
+    <body style="background-color:whitesmoke;">
+    <body style="font-family: cursive" >
+<!--BOOTSTRAP NAVBAR-->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"><b>EVERYDAY NEWS</b></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+
+
+<!--BOOTSTRAP NAVBAR END-->
+        <div style="width: 100%; border-style:solid;border-width: 0px;height: auto">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="border-style:solid; border-width:0px; border-radius: 5px;" >
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img src="img.jpg" class="d-block w-100" alt="..." height="500px">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="img2.png" class="d-block w-100" alt="..." height="500px">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="img3.jpg" class="d-block w-100" alt="..." height="500px">
+                                  </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                  <span class="carousel-control-5ext-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                                </a>
+                        </div>
+        </div>
+        <div style="width: 100%;display:flex;margin:1px; border-color:black;border-width: 0px; border-style: dotted">
+        <div  class=" borders" style="width:10%; text-align: left;" >
+                <div style="font-size:15px; color:black"><b>Search by Countries</b></div>
+                <div>
+                    
+                    <a href="#">Nepal</a><br>
+                    <a href="#">Vietnam</a><br>
+                    <a href="#">Bhutan</a><br>
+                    <a href="#">Sri Lanka</a><br>
+                    <a href="#">Laos</a><br>   
+                    <a href="#">ThaiLand</a><br>
+                    <a href="#">Singapore</a><br>
+                    <a href="#">Malaysia</a><br>
+                    <a href="#">Indonesia</a><br>
+                    <a href="#">Indonesia</a><br>
+                    <a href="#">Seychelles</a><br>
+                    <a href="#">Cambodia </a><br>
+                    <a href="#"> Philippines</a><br>
+                    <a href="#">Turkey </a><br>
+                    <a href="#">Myanmar </a><br>
+                    <a href="#">Lebanon </a><br>
+                    <a href="#">Hong Kong </a><br>
+                    <a href="#">UAE </a><br>
+                </div>
+                   
+        </div>
+             
+            
+            <div style="width:40%;">
+                <div class="borders" style="height: 130px; border-width: 0px">
+                    <div style="margin:3px; margin-left:12px; text-decoration-style: wavy; font-family:cursive;margin-top: 10px ">
+                        POST
+                    </div>  
+                    <div>
+                            <textarea type="text"placeholder="Share YOur Thoughts"  style="   border-style:dotted;border-color:black; width:95%; margin:5px; margin-left: 10px"></textarea>
+                    </div><hr>
+                </div><br>
+                <div style="margin:1px; margin-left:6px; text-decoration-style:wavy; font-family:cursive; font-size:30px ">
+                        <b>Global Trends</b>
+                </div> <br>
+                <div>
+<!--BOOTSTRAP JUMBOT-->
+<div class="jumbotron">
+    <h1 class="display-4">Microsoft</h1>
+    <p class="lead">Microsoft actively contributing to Chromium ahead of new Edge browser release. Microsoft is technically building its own browser for Windows using Chromium codes and Blink rendering engine but the interface of new Edge won’t look like Chrome.</p>
+    <hr class="my-4">
+    <p></p>
+    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+  </div>
+  <div class="jumbotron">
+      <h1 class="display-4">Microsoft</h1>
+      <p class="lead">Microsoft actively contributing to Chromium ahead of new Edge browser release. Microsoft is technically building its own browser for Windows using Chromium codes and Blink rendering engine but the interface of new Edge won’t look like Chrome.</p>
+      <hr class="my-4">
+      <p></p>
+      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    </div>
+<!--BOOTSTRAP JUMBOT END-->
+                </div>
+            </div>
+            
+            
+            <div style="width:25%;border-style: solid; border-color:black; border-width:0px;"  style="border-style: solid; border-color:black; border-width:px;">
+                    <div class="card" style="width:auto;margin-left:0px">
+                            <div style="margin:3px">Trending Today</div>
+                        <ul id="container" style="padding:0px;">    
+                            
+                            <li class="list-group-item">
+                                    <div class="card" style="width: auto">
+                                            <img src="img.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                            </div>
+                                    </div>
+                              <br>
+                                    <div class="card" style="width: 100%">
+                                            <img src="img.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                            </div>
+                                    </div>
+                                <br>
+                                <div class="card" style="width: 100%">
+                                        <img src="img.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        </div>
+                                </div>
+                          <br>
+                                <div class="card" style="width: 100%">
+                                        <img src="img.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        </div>
+                                </div>
+                              
+                        </li>                             
+                        </ul>
+                          </div>        <hr>
+                          <div style="margin:5px;padding:5px">
+                            <div style="font-size: 20px;"><u>Share Info</u></div><br> 
+                            <div><form>
+                                  <div class="form-group">
+                                    <label for="exampleInputEmail1">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="exampleInputPassword1">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                  </div>
+                                  <div class="form-group">
+                                      <label for="exampleFormControlTextarea1">Example textarea</label>
+                                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                    </div>
+                                  <button type="submit" class="btn btn-primary">Submit</button>
+                                </form></div>
+                          </div>
+            </div>
+             <div style="width:25%" class="borders"  >
+              
+              <!--bootsrap-->
+              <div class="accordion" id="accordionExample">
+                <div style="collapse-show">
+                    <center><h1>Near You</h1></center>
+                    
+                    <hr>
+                </div>
+                <div class="accordion" id="accordionExample">
+                    <div class="card">
+                      <div class="card-header" id="headingOne">
+                        <h2 class="mb-0">
+                          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <b>WATCH: MS DHONI'S PATRIOTIC GESTURE  </b>
+                          </button>
+                        </h2>
+                      </div>
+                  
+                      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div class="card-body">
+                            MS Dhoni has time and again showed plenty of class on and off the field and Saturday the former Indian captain showcased it yet again. During the India vs New Zealand 3rd T20I, a fan carrying the Indian flag breached security in Hamilton, ran to Dhoni and touched his feet. The 37-year-old saw the Indian flag touching the ground, and quickly took it away from the fan and gave it to a security personnel. Dhoni's brilliant gesture went viral on Twitter, sending fans into a frenzy.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header" id="headingTwo">
+                        <h2 class="mb-0">
+                          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <B>HOW TIME CHANGES</B>
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <B>PEOPLE WITHOUT BRAIN SENT HERE</B>
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div class="card-body">
+                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion" id="accordionExample">
+                      <div class="card">
+                        <div class="card-header" id="headingFour">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                              <B>REDMI NOTE 7-LAUNCH IN INDIA</b>
+                            </button>
+                          </h2>
+                        </div>
+                    
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                          <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                          <div class="card-header" id="headingFive">
+                            <h2 class="mb-0">
+                              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                <B>SHIMLA, KULLU SCHOOL TO REMAIN CLOSED</B>
+                              </button>
+                            </h2>
+                          </div>
+                      
+                          <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                            <div class="card-body">
+                              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                          </div>
+                        </div>
+  
+              <!--Ending here-->
+
+            </div>
+         
+    </body>
+
+</html>
